@@ -1,6 +1,6 @@
 class Solution:
 	def canJump(self, nums: list[int]) -> bool:
-		max_i = -1
+		max_i = 0
 		for i in range(len(nums)):
 			if i > max_i:
 				return False
